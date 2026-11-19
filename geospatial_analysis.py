@@ -19,10 +19,11 @@ print(df.groupby("State")["MonthlySearchDemand"].sum())
 print("\nAverage Acquisition Cost by State:")
 print(df.groupby("State")["EstimatedAcquisitionCostINR"].mean())
 
-# Create interactive map of India
 map_view = folium.Map(
     location=[20.5937, 78.9629],
-    zoom_start=5
+    zoom_start=5,
+    tiles="CartoDB positron"
+
 )
 
 # Add locations to map
