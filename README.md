@@ -1,2 +1,2 @@
 # geospatial-data-analysis
-geospatial-data-analysis using pytjon and folium
+geospatial-data-analysis using python and folium
